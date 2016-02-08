@@ -11,4 +11,4 @@ consul-template driven haproxy with runit orchestration.
 	
 ##Zero downtime reloading
 
-For zero downtime haproxy reloading, make sure sch_plug and sch_kernel kernel's features are loaded on docker host. Check for container logs.
+For zero downtime haproxy reloading, make sure sch_plug and sch_prio kernel's features are loaded on docker host. Check for container logs.
