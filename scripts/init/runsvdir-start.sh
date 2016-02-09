@@ -40,4 +40,6 @@ else
     echo "Unable to load queueing discipline"
 fi
 
+sysctl -w net.ipv4.conf.eth0.route_localnet=1
+
 exec runsvdir -P /etc/service
