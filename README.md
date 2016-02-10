@@ -1,7 +1,7 @@
 #docker haproxy-consul-template
 
 
-consul-template driven haproxy with runit orchestration ans zero downtime reloading
+consul-template driven haproxy with runit orchestration and zero downtime reloading
 
 
 ##Usage
