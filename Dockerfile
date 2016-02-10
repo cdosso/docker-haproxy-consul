@@ -31,4 +31,4 @@ COPY scripts/init/runsvdir-start.sh /usr/local/sbin/runsvdir-start
 
 RUN chmod +x /etc/service/haproxy/run /etc/service/consul_template/run /usr/local/sbin/runsvdir-start
 
-CMD ["/usr/local/sbin/runsvdir-start"]
+ENTRYPOINT ["/usr/local/sbin/runsvdir-start"]
